@@ -1,0 +1,77 @@
+HTML {
+    background-color: rgb(186, 186, 193); 
+    color: rgb(6, 6, 6); 
+}
+
+#main-container {
+    position: relative;
+}
+h1 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.asteroid {
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+    width: 950px;
+    height: 150px;
+}
+
+img {
+    width: 170px;
+    height: 150px;
+}
+
+#bruce {
+    float: right;
+    width: 300px;
+}
+
+.name {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    left: 180px;
+    top: 6px;
+}
+
+.approach_date {
+    position: absolute;
+    left: 180px;
+    top: 40px;
+    font-size: 17px;
+}
+
+.diameter {
+    position: absolute;
+    left: 427px;
+    top: 1px;
+    color: rgb(6, 6, 6); 
+    font-size: 30px;
+
+}
+
+.speed {
+    position: absolute;
+    left: 427px;
+    top: 30px;
+    font-size: 30px;
+
+
+}
+
+.orbiting_body {
+    position: absolute;
+    font-size: 30px;
+    left: 180px;
+    top: 100px;
+}
+
+.miss_distance {
+    position: absolute;
+    font-size: 30px;
+    left: 427px;
+    top: 64px;
+}
