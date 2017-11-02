@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/main.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
         <title>Asteroid Near Misses</title>
     </head>
 <body>
@@ -44,12 +45,17 @@
     
         <strong>Meteorite:</strong> If a small asteroid or large meteoroid survives its fiery passage through the Earth’s atmosphere and lands on Earth’s surface, it is then called a meteorite.
     </p>
-    <h3>Near Misses on the Week of September 1, 2017. Sorted by the distance they missed earth.</h3>
+    <h3>Search for dangerous asteroids on the day of your choosing:</h3>
+    <p id="ajax-results"></p>
+    <form id="add-date">
+        <input  type="date" id="date" placeholder="date">
+        <button type="submit" >Submit Date</button>
+    </form>
     <div id="main-container">
 
     </div>
 
     <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
